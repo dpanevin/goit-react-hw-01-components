@@ -1,0 +1,25 @@
+.statistics {
+  width: 280px;
+  margin: 5px auto 0 15px;
+  padding-top: 20px;
+  background: linear-gradient(
+      6deg,
+      rgba(0, 224, 217, 1) 29%,
+      rgba(91, 133, 239, 1) 68%
+    )
+    no-repeat;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+}
+
+.stat_list {
+  width: 100%;
+  margin: 20px 0 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  background-color: rgba(91, 133, 239, 0.3);
+}

@@ -1,0 +1,23 @@
+.friends {
+  width: 280px;
+  margin: 5px auto 0 15px;
+  padding-top: 20px;
+  background: linear-gradient(
+      6deg,
+      rgba(254, 103, 90, 1) 29%,
+      rgba(0, 224, 217, 1) 68%
+    )
+    no-repeat;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+}
+
+.friendList {
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}

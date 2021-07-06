@@ -1,8 +1,11 @@
+import 'index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { App } from 'components/App/App';
 
-const elem = React.createElement('div', { div: 1, children: 'Hello world!' });
-
-console.log(elem);
-
-ReactDOM.render(elem, document.querySelector('#root'));
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.querySelector('#root'),
+);
